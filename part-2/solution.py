@@ -1,4 +1,4 @@
-# Solution to part 1.
+# Solution to part 2, Try to do it yourself first.
 
 # ==== Imports =====
 from youtube_transcript_api import YouTubeTranscriptApi # pip install youtube_transcript_api
@@ -59,8 +59,6 @@ def get_top_common_phrase(dictionary):
             top_key = key
 
     return top_key, top_value
-
-# ===== Generate a word-cloud for the lecture. ======
 
 if __name__ == "__main__":
     # Get the transcript
